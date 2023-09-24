@@ -21,7 +21,7 @@ const assertEqual = function(actual, expected) {
 
 // eqObject function
 const eqObjects = function(object1, object2) {
-  let output = ""
+  let output = "";
   if (Object.keys(object1).length !== Object.keys(object2).length) {
     output = false;
   } else {
