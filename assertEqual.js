@@ -6,10 +6,5 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-console.log(assertEqual("Hello", "Hello")); // passed
-console.log(assertEqual("Hi", "Hello")); // failed
-
-console.log(assertEqual(1, 1)); // passed
-console.log(assertEqual(1, 100)); // failed
-
-
+// exporting function, required by other files in lotide: 
+module.exports = assertEqual
