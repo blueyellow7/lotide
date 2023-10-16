@@ -33,7 +33,7 @@ const eqObjects = function(object1, object2) {
 
 // assertObjectsEqual function
 const inspect = require('util').inspect;
-const assertArraysEqual = function(actual, expected) {
+const assertObjectsEqual = function(actual, expected) {
   if (eqObjects(actual, expected) === true) {
     console.log(`🎉🎉🎉 Assertion passed: ${inspect(actual)} === ${inspect(expected)}`);
   } else {
@@ -42,7 +42,7 @@ const assertArraysEqual = function(actual, expected) {
 };
 
 // TEST
-assertArraysEqual({a: 1, b: 2}, {a: 1, b: 2});
-assertArraysEqual({a: 1, b: 2, c: 3}, {a: 1, b: 2});
+assertObjectsEqual({a: 1, b: 2}, {a: 1, b: 2}); // should pass
+assertObjectsEqual({a: 1, b: 2, c: 3}, {a: 1, b: 2}); // should fail
 
 module.exports = assertObjectsEqual;

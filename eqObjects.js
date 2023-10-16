@@ -60,4 +60,4 @@ assertEqual(eqObjects(arrayShirt1, arrayShirt3), false);
 assertEqual(eqObjects(arrayShirt3, arrayShirt4), false);
 
 
-
+module.exports = eqObjects;
