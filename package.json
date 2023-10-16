@@ -1,0 +1,26 @@
+{
+  "name": "@neeharikab/lotide",
+  "version": "1.0.0",
+  "description": "A clone of lodash library, made for educational purposes",
+  "main": "assertArraysEquals.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blueyellow7/lotide.git"
+  },
+  "author": "Neeharika Baral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blueyellow7/lotide/issues"
+  },
+  "homepage": "https://github.com/blueyellow7/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^9.2.2"
+  }
+}
