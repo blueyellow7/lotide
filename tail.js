@@ -1,11 +1,7 @@
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    return `🎉🎉🎉 Assertion passed ${actual} === ${expected}`;
-  } else {
-    return `❌❌❌ Assertion failed ${actual} !== ${expected}`;
-  }
+const tail = function(array) {
+  let tailArray = array.slice(1);
+  return tailArray;
 };
 
-const tail = function(array) {
-  return array.slice(1);
-};
+// export used by tailTest file
+module.exports = tail;
