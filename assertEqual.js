@@ -7,4 +7,4 @@ const assertEqual = function(actual, expected) {
 };
 
 // exporting function, required by other files in lotide: 
-module.exports = assertEqual
+module.exports = assertEqual;
