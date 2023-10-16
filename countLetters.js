@@ -25,3 +25,4 @@ const countLetters = function(string) {
 console.log(countLetters("random string of letters"))
 
 
+module.exports = countLetters;

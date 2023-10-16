@@ -43,3 +43,4 @@ const mapTest4 = map(["cats", "dogs", "frogs"], word => word.length);
 assertArraysEqual(mapTest4, [4, 4, 5]);
 
 
+module.exports = map;

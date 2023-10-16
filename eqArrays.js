@@ -11,3 +11,4 @@ const eqArrays = function(array1, array2) {
 
 // export used by eqArraysTest file
 module.exports = eqArrays;
+

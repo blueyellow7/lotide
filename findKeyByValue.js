@@ -32,3 +32,5 @@ console.log(findKeyByValue(bestTVShowsByGenre, "Stranger Things"));
 
 assertEqual(findKeyByValue(bestTVShowsByGenre, "The Expanse"), "sci_fi");
 assertEqual(findKeyByValue(bestTVShowsByGenre, "Stranger things"), undefined);
+
+module.exports = findKeyByValue;

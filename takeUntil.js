@@ -46,3 +46,4 @@ assertArraysEqual(takeUntilTest2, ["I've", 'been', 'to', 'Hollywood']);
 const takeUntilTest4 = takeUntil(["cat", "dog", "frog", "horse"], word => word.length >= 5);
 assertArraysEqual(takeUntilTest4, ["cat", "dog", "frog"]);
 
+module.exports = takeUntil;

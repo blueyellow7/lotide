@@ -44,3 +44,5 @@ const assertArraysEqual = function(actual, expected) {
 // TEST
 assertArraysEqual({a: 1, b: 2}, {a: 1, b: 2});
 assertArraysEqual({a: 1, b: 2, c: 3}, {a: 1, b: 2});
+
+module.exports = assertObjectsEqual;

@@ -38,3 +38,5 @@ const tvShows = {
 assertEqual(findKey(ages, x => x === 18), "Nancy");
 assertEqual(findKey(tvShows, x => x["episodes"] === 34), "Stranger Things");
 assertEqual(findKey(tvShows, x => x.seasons === 2), "Good Omens");
+
+module.exports = findKey;
