@@ -1,8 +1,8 @@
 {
   "name": "@neeharikab/lotide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A clone of lodash library, made for educational purposes",
-  "main": "assertArraysEquals.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
