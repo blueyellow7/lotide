@@ -1,6 +1,6 @@
 {
   "name": "@neeharikab/lotide",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A clone of lodash library, made for educational purposes",
   "main": "index.js",
   "directories": {
