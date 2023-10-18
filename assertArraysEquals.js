@@ -8,6 +8,5 @@ const assertArraysEqual = function(arr1, arr2){
   }
 };
 
-// exporting for assertArraysEqualTest file
 module.exports = assertArraysEqual;
 

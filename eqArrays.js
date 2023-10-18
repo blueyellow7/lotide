@@ -9,6 +9,5 @@ const eqArrays = function(array1, array2) {
   } return true;
 };
 
-// export used by eqArraysTest file
 module.exports = eqArrays;
 
